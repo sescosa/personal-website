@@ -42,7 +42,7 @@ export default function Home({currentYear, images, links, bio}) {
               <Rounded imgPath={images.github} href={links.github}></Rounded>
               <Rounded imgPath={images.twitter} href={links.twitter}></Rounded>
             </div>
-              <Image src="/me.jpeg" width="224" height="224" className='rounded-full bg-center bg-cover bg-no-repeat shadow-md hover:shadow-lg hover:scale-105 transform duration-500 z-20 flex-none'></Image>
+              <Image src="/me.jpeg" width="224" height="224" alt="Profile picture" className='rounded-full bg-center bg-cover bg-no-repeat shadow-md hover:shadow-lg hover:scale-105 transform duration-500 z-20 flex-none'></Image>
           </div>
           <div className='max-w-md px-4 mt-6 md:mt-0 md:p-0 ml-0 md:ml-5 text-sm text-justify md:text-left'>
             <Bio bio={bio}></Bio>
