@@ -10,7 +10,7 @@ export default function Home() {
 
       <main className='min-h-screen py-16 flex flex-col items-center justify-center'>
         <h1 className='text-blue-600 text-6xl font-bold'>
-          Howdy, I'm Sergio!
+          Howdy, I&apos;m Sergio!
         </h1>
 
         <p className='text-center my-16 text-xl'>
