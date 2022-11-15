@@ -5,7 +5,7 @@ export default function Home() {
     <div className='px-8'>
       <Head>
         <title>Home · Sergio Escosa</title>
-        <meta name="description" content="Sergio Escosa's personal website" />
+        <meta name="description" content="Sergio Escosa personal website" />
       </Head>
 
       <main className='min-h-screen py-16 flex flex-col items-center justify-center'>
